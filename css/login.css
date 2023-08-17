@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+header{
+    color: #1f3b6d;
+    background-color: #C7CDDB;
+    align-content: center;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 2px;
+    border-color: #1f3b6d;
+    border-style: groove;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+header p {
+    margin-bottom: 0px;
+}
+
+header .logo-header img{
+    margin: 5px 5px 5px 5px;
+    padding: 0 0 0 0;
+}
+
+header ul li a .btn{
+    text-align: center;
+}
+
+header .btn{
+    background-color: #1f3b6d;
+    border-color: #1f3b6d;
+    color: #C7CDDB;
+    display: flex;
+    font-size: medium;
+    width: 90px;
+    height: 40px;  
+    text-align: center;
+    justify-content: center;
+    margin: 5px 5px 5px 5px
+}
+
+header ul li{
+    text-decoration: none;
+    display: flex;
+    float: left;
+    margin: 4px;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    font-family: 'Ruda', sans-serif;
+    font-size: 24px;
+}
+
+header ul li a{
+    text-align: center;
+}
+
+header ul li a:hover{
+    color: #1f3b6d;
+    background-color: #C7CDDB;
+}
+
+header .bi{
+    margin: 10px;
+}
+
+body{
+    background-color: #ccd2e3;
+}
+
+#menu-icon{
+    color: #1f3b6d;
+    justify-content: center;
+    text-align: center;
+}
+
+div{
+    padding: 0px 0px 0px 0px;
+}
+
+.row{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.form-custom {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.forms {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer{
+    background-color: #1f3b6d;
+    width: 100%;
+    margin: 0;
+    color: #C7CDDB;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.logo-footer img{
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    margin: 0 10px 0 10px;
+}
+
+.logo-footer svg{
+    width: 10%;
+    height: 10%;
+}
+
+footer .col-3{
+    align-content: center;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+footer div .bi{
+    color: #ccd2e3; 
+    margin: 10px;
+}
+
+footer div ul{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+footer div ul li{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+}
+
+footer div ul li a{
+    text-align: left;
+    text-decoration: none;
+    color: #C7CDDB;
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+}
+
+footer div ul li a:hover{
+    color: #1f3b6d;
+    background-color: #C7CDDB;
+}
+
+footer h6{
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+    text-align: left;
+    color: #ccd2e3;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+    text-align: left;
+}
+
+footer p{
+    font-size: 18px;
+    font-family: 'Ruda', sans-serif;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+    text-align: left;
+}
+
+label{
+    justify-content: start;
+    text-align: left;
+    align-content: start;
+}
+
+span{
+    background-color: #1f3b6d;
+    color: #C7CDDB;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding-right: 0;
+}
+
+.column-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#byannie{
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sm{
+    display: none;
+}
+
+.md{
+    display: none;
+}
+
+/* For phone -sm */
+@media (min-width: 320px) and (max-width: 767px) {
+    header {
+        color: #1f3b6d;
+        background-color: #C7CDDB;
+        align-content: center;
+        position: fixed;
+        z-index: 100;
+        border-bottom: 2px;
+        border-color: #1f3b6d;
+        border-style: groove;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+
+    .sm{
+        display: flex;
+    }
+
+    header .col {
+        height: 75%;
+    }
+
+    .logo-header img{
+        margin: 1px 1px 1px 1px;
+        height: 30px;
+        float: left;
+    }
+
+    .menu-icon svg{
+        float: right;
+        justify-content: right;
+        text-align: right;
+        align-content: right;
+        height: 40px;
+    }
+
+    footer{
+        background-color: #1f3b6d;
+        width: 200px;
+        margin: 0;
+        color: #C7CDDB;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .logo-footer{
+        display: block;
+    }
+
+    .logo-footer svg{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .logo-footer h6{
+        margin-left: 24px;
+        font-family: 'Ruda', sans-serif;
+        font-size: 12px;
+    }
+
+    .logo-footer p{
+        margin-left: 24px;
+        font-family: 'Ruda', sans-serif;
+        font-size: 10px;
+    }
+
+    footer div ul li{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .logo-footer ul li a{
+        font-family: 'Ruda', sans-serif;
+        font-size: 12px;
+    }
+
+    footer .logo-footer{
+        align-content: center;
+        float: left;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 2px;
+    }
+
+    label{
+        justify-content: start;
+        text-align: left;
+        align-content: start;
+    }
+    
+    span{
+        font-family: 'Ruda', sans-serif;
+        font-size: 9px;
+        background-color: #1f3b6d;
+        color: #C7CDDB;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        padding-right: 0;
+    }
+    
+    .column-custom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #byannie{
+        margin: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+    .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .lg {
+        display: none;
+    }
+    .md {
+        display: none;
+    }
+
+    
+}
+
+/* For tablet -md*/
+@media (min-width: 768px) and (max-width: 991px){
+    .md {
+        display: flex;
+    }
+
+    .sm {
+        display: none;
+    }
+
+    .lg {
+        display: none;
+    }
+    
+    header {
+        color: #1f3b6d;
+        background-color: #C7CDDB;
+        align-content: center;
+        position: fixed;
+        z-index: 100;
+        border-bottom: 2px;
+        border-color: #1f3b6d;
+        border-style: groove;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        height: 70px;
+    }
+
+    .logo-header img{
+        display: flex;
+        padding: 10px;
+        margin-left: 50px;
+        margin-right: 200px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        height: 60px;
+        float: left;
+    }
+    .menu-icon svg{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        float: right;
+        justify-content: right;
+        text-align: right;
+        align-content: right;
+    }
+
+    .menu-icon .logo-icon{
+        text-align: right;
+    }
+    
+    footer{
+        background-color: #1f3b6d;
+        width: 100%;
+        margin: 0;
+        color: #C7CDDB;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .logo-footer img{
+        justify-content: center;
+        height: 150px;
+        width: 150px;
+        margin: 0 10px 0 10px;
+    }
+    
+    .logo-footer svg{
+        width: 10%;
+        height: 10%;
+    }
+    
+    footer .col-3{
+        align-content: center;
+        float: left;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    
+    footer div .bi{
+        color: #ccd2e3; 
+        margin: 10px;
+    }
+    
+    footer div ul{
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    footer div ul li{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-size: 20px;
+        font-family: 'Ruda', sans-serif;
+    }
+    
+    footer div ul li a{
+        text-align: left;
+        text-decoration: none;
+        color: #C7CDDB;
+        font-size: 16px;
+        font-family: 'Ruda', sans-serif;
+    }
+    
+    footer div ul li a:hover{
+        color: #1f3b6d;
+        background-color: #C7CDDB;
+    }
+    
+    footer h6{
+        font-size: 18px;
+        font-family: 'Ruda', sans-serif;
+        text-align: left;
+        color: #ccd2e3;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: block;
+        text-align: left;
+    }
+    
+    footer p{
+        font-size: 14px;
+        font-family: 'Ruda', sans-serif;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: block;
+        text-align: left;
+    }
+}
